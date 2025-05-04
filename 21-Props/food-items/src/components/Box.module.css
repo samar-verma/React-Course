@@ -1,0 +1,12 @@
+.container {
+    margin: 30px 30px 30px 30px;
+    border-width: 2px;
+    width: 50%;
+    border-color: rgb(151, 140, 140);
+    border-style: solid;
+    padding: 10px;
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 8px 1px; */
+    background-color: rgb(174, 122, 167);
+    
+}
