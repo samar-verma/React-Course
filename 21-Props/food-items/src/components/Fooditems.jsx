@@ -5,7 +5,9 @@ function FoodItems({item}) {
     
 return ( <ul className='list-group'>
     {item.map((items, index) => (
-      <Item foodItem={items} ></Item>
+      <Item foodItem={items} handleBuyButton={() => {
+        alert(`${items} added to cart`);
+      }}></Item>
       
     ))}
   </ul>

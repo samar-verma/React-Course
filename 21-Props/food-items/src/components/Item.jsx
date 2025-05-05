@@ -1,11 +1,12 @@
 import styles from "./Item.module.css"
-const Item =({foodItem}) => {
+const Item =({foodItem, handleBuyButton}) => {
       
-  const  hello = () => {
-      alert(`${foodItem} added to cart`);
-    };
+  // const  handleBuyButton = () => {
+  //     alert(`${foodItem} added to cart`);
+  //   };
 
-return <li className='list-group-item'>{foodItem} <button class={`${styles.gk} btn btn-outline-danger`}  onClick={hello}>Add</button></li>;
+return <li className='list-group-item'>{foodItem} <button class={`${styles.gk} btn btn-outline-danger`} 
+        onClick={handleBuyButton}>Add</button></li>;
  
 }
 

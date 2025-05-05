@@ -1,4 +1,4 @@
-import FoodItems from "./components/fooditems";
+import FoodItems from "./components/Fooditems";
 import ErrorMessage from "./components/ErrorMessage";
 import Box from "./components/Box";
 import Input from "./components/InputItem";
